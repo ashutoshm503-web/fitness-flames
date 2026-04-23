@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+     background-image: url(bg-img.avif);
+     
+    color: aliceblue;
+    
+}
+#logo span{
+    color: aquamarine;
+}
+.nav{
+    height: 65px;
+    background: brown;
+    margin-bottom: 10px;
+}
+main{
+    height: calc(100vh - 65px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+    padding-top: 15px ;
+    background: rgba(255, 255, 255, 0.253);
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+form{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+
+}
+.form h1{
+    color: black;
+    font-size: 2.5rem;
+}
+.form-sec input{
+    padding-left: 5px;
+    height: 35px;
+    width: 280px;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 530;
+
+}
+.submit-btn{
+    height: 35px;
+    width: 150px;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.submit-btn:hover{
+    background-color: rgb(118, 160, 146);
+    color: aliceblue;
+}
+.message{
+    font-size: 1rem;
+    
+}
+@media only screen and ( max-width: 460px){
+    .form-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 4px;
+
+    }
+}

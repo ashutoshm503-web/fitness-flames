@@ -57,6 +57,11 @@ body{
    
 
 }
+.nav-btn a{
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(247, 247, 247);
+}
 #logo{
     color:white;
     font-size: 2rem;
@@ -119,6 +124,13 @@ body{
     color: white;
     cursor: pointer;
    
+}
+.main-text a{
+    
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(8, 8, 8);
+
 }
 /*services section*/
 .service{
@@ -207,15 +219,8 @@ body{
 .about-us h3{
     font-size: 1.8rem;
 }
-.about-us button{
-    background: #21b8d3;
-    color: aliceblue;
-    font-size: 1rem;
-    font-weight: 700;
-    width: 170px;
-    height: 60px;
-    border-radius: 9px;
-}
+
+
 /*Review section*/
 .Review{
     background: #070707fa;
