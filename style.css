@@ -71,6 +71,8 @@ body{
 }
 #icon{
     display: none;
+    font-size: 1.7rem;
+    color: #f1eeee;
 }
 .main-pic{
     width:50%;

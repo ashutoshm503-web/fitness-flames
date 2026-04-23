@@ -11,17 +11,12 @@
     // console.log(gender)
      let shift = data.getAll("o")
      //console.log(shift)
-     if(name==="" || phone_num===""|| gender===""|| shift ===""){
-      alert("please the complete data")
+     if(!name.trim()|| !phone_num.trim()|| !gender || shift.length === 0 || phone_num !==10){
+      alert("please fill the data or enter valid number ")
      }
      else{
-         pop_pop.innerHTML = `<div style = color:red;  > <h2> Form is Submitted</h2></div>`
+         pop_pop.innerHTML = `<div style = color:red;> <h2> Form is Submitted</h2></div>`
          form.reset()
      }
-     
-   
-   
-     
-     
-
+    
    })
